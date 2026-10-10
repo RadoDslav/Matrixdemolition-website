@@ -1,0 +1,3 @@
+import { QuoteForm } from '../components/QuoteForm';
+export const metadata = { title:"Driver's Application Form" };
+export default function DriverApplication(){return <><section className="dark section"><div className="wrap"><p className="mono" style={{color:'var(--red-bright)'}}>Careers / Driver</p><h1 className="display" style={{fontSize:'clamp(3.5rem,10vw,9rem)',margin:'20px 0'}}>Driver&apos;s application form</h1><p style={{color:'var(--muted)',maxWidth:620}}>Share your contact details, experience, and interest with the Matrix Demolition team.</p></div></section><section className="section"><div className="wrap" style={{maxWidth:900}}><QuoteForm compact /></div></section></>}
